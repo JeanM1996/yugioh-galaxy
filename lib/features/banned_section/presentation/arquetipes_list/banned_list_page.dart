@@ -53,7 +53,6 @@ class _BannedListPageState extends ConsumerState<BannedListPage> {
                 : Column(
                     children: [
                       Container(
-                        height: context.height(.99) + 500,
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(imagePaths.imgBackground),

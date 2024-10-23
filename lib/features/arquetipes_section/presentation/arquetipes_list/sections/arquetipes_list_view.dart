@@ -27,6 +27,14 @@ class ArquetipesListView extends ConsumerWidget {
           ),
           child: ListTile(
             onTap: () => _onTapCard(state, index, context),
+            leading: CircleAvatar(
+              backgroundColor: colors.wine,
+              child: CustomText(
+                '${state.arquetipes[index].archetypeName[0].toUpperCase()}${state.arquetipes[index].archetypeName[1].toUpperCase()}',
+                textColor: colors.white,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
             title: CustomText(
               state.arquetipes[index].archetypeName,
               textColor: colors.black,
