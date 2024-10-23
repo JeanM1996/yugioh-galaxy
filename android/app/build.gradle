@@ -51,7 +51,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.salesmanapp.app"
+        applicationId "com.yugiohgalaxy.app"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()

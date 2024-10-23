@@ -1,4 +1,4 @@
-package com.salesmanapp.app
+package com.yugiohgalaxy.app
 
 import io.flutter.embedding.android.FlutterActivity
 
