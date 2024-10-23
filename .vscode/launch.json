@@ -1,0 +1,50 @@
+{
+  "version": "0.2.1",
+  "configurations": [
+    {
+      "name": "yugiohgalaxy_alpha",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_alpha.dart",
+    },
+    {
+      "name": "yugiohgalaxy_beta",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_beta.dart",
+    },
+    {
+      "name": "yugiohgalaxy_staging",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_staging.dart",
+    },
+    {
+      "name": "yugiohgalaxy_prod",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+    },
+    {
+      "name": "yugiohgalaxy_beta_profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main_beta.dart",
+    },
+    {
+      "name": "yugiohgalaxy_prod_profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main.dart",
+    },
+    {
+      "name": "yugiohgalaxy_alpha_profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main_alpha.dart",
+    },
+  ]
+}
