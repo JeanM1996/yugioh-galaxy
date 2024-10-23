@@ -17,8 +17,7 @@ class ArquetipesListController extends StateNotifier<ArquetipesListState> {
       state =
           state.copyWith(isLoading: false, arquetipes: [], auxArquetipes: []);
     }, (r) {
-      state =
-          state.copyWith(arquetipes: r, auxArquetipes: [], isLoading: false);
+      state = state.copyWith(arquetipes: r, auxArquetipes: r, isLoading: false);
     });
   }
 
