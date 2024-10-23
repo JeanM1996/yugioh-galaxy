@@ -1,6 +1,6 @@
 # Yugioh Galaxy  APP
 
-Yugioh Galaxy Flutter App
+Yugioh Galaxy aaASFlutter App
 
 ## Getting Started
 
