@@ -76,10 +76,11 @@ class _SplashState extends ConsumerState<SplashPage> {
                       );
                     },
                     child: //gradient text  native impl
-                        const CustomText(
+                        CustomText(
                       'Yugioh Galaxy',
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
+                      textColor: colors.blue,
                     ),
                   ),
                 ],
