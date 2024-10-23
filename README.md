@@ -1,6 +1,6 @@
-# Yugioh Universe  APP
+# Yugioh Galaxy  APP
 
-Yugioh Universe Flutter App
+Yugioh Galaxy Flutter App
 
 ## Getting Started
 
